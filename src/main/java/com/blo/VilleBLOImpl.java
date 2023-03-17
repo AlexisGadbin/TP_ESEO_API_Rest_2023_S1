@@ -16,7 +16,7 @@ public class VilleBLOImpl implements VilleBLO{
 	private VilleDAO villeDAO;
 	
 	@Override
-	public ArrayList<Ville> getInfoVilles(String codePostal) { 
+	public ArrayList<Ville> getInfoVilles(String codePostal) {
 			ArrayList<Ville> listVille = new ArrayList<Ville>();
 			// Potentiellement if en fonction du code postal pour rediriger vers une méthode du DAO spécifique
 			System.out.println("CODE  " + codePostal);
