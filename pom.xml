@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>TP_ESEO_API_REST_Server</groupId>
-  <artifactId>TP__API_REST_Server</artifactId>
+  <artifactId>TP_API_REST_Server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   	<parent>
