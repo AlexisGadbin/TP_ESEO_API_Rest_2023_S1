@@ -1,11 +1,12 @@
 package com.dao;
 
-import java.util.ArrayList;
+import java.util.List;
 
-import dto.Ville;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 
-public interface VilleDAO {
-	public ArrayList<Ville> findAllVilles();
-	public ArrayList<Ville> findVille(String codePostal);
-	public void addVille(Ville ville);
+import com.model.Ville;
+
+public interface VilleDAO extends JpaRepository<Ville, String>{
+	
 }
