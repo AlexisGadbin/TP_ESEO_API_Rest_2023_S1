@@ -10,7 +10,8 @@ import javax.persistence.Table;
 public class Ville {
 	
 	@Id
-	private String Code_commune_INSEE;
+	@Column(name="Code_commune_INSEE")
+	private String codeCommuneInsee;
 	
 	@Column(name="Nom_commune")
 	private String nomCommune;
@@ -34,12 +35,12 @@ public class Ville {
 		// Do nothing but usefull for SpringBoot
 	}
 	
-	public String getCode_commune_INSEE() {
-		return Code_commune_INSEE;
+	public String getCodeCommuneInsee() {
+		return codeCommuneInsee;
 	}
 
-	public void setCode_commune_INSEE(String code_commune_INSEE) {
-		Code_commune_INSEE = code_commune_INSEE;
+	public void setCodeCommuneInsee(String codeCommune) {
+		codeCommuneInsee = codeCommune;
 	}
 
 	public String getLibelleAcheminement() {
