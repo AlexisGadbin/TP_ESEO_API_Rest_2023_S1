@@ -25,12 +25,13 @@ public class Ville {
 	private String ligne;
 	
 	@Column(name="Latitude")
-	private String Latitude;
+	private String latitude;
 	
 	@Column(name="Longitude")
 	private String longitude;
 	
 	public Ville() {
+		// Do nothing but usefull for SpringBoot
 	}
 	
 	public String getCode_commune_INSEE() {
