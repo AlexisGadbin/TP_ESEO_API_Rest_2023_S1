@@ -51,11 +51,11 @@ public class Ville {
 	}
 
 	public String getLatitude() {
-		return Latitude;
+		return latitude;
 	}
 
 	public void setLatitude(String latitude) {
-		Latitude = latitude;
+		this.latitude = latitude;
 	}
 
 	public String getLongitude() {
